@@ -1,0 +1,59 @@
+body {
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Saira, sans-serif;
+    font-weight: 100;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 70px;
+    margin: 0;
+    width: fit-content;
+    text-align: center;
+}
+
+.logo-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 70px;
+    width: 100%;
+    position: relative;
+}
+
+.logo-line img {
+    height: 180px;
+    width: auto;
+}
+
+.letter-s {
+    position: relative;
+    top: -10px;
+}
+
+.letter-n {
+    position: relative;
+    top: -10px;
+}
+
+p {
+    font-size: 21px; 
+    width: fit-content;
+    text-align: center;
+    max-width: 100%; 
+}
